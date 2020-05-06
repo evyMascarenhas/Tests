@@ -1,0 +1,25 @@
+C:\Users\Nozes\source\repos\CellCrypt test\bin\Debug\netcoreapp3.1\CellCrypt.exe
+C:\Users\Nozes\source\repos\CellCrypt test\bin\Debug\netcoreapp3.1\CellCrypt.deps.json
+C:\Users\Nozes\source\repos\CellCrypt test\bin\Debug\netcoreapp3.1\CellCrypt.runtimeconfig.json
+C:\Users\Nozes\source\repos\CellCrypt test\bin\Debug\netcoreapp3.1\CellCrypt.runtimeconfig.dev.json
+C:\Users\Nozes\source\repos\CellCrypt test\bin\Debug\netcoreapp3.1\CellCrypt.dll
+C:\Users\Nozes\source\repos\CellCrypt test\bin\Debug\netcoreapp3.1\CellCrypt.pdb
+C:\Users\Nozes\source\repos\CellCrypt test\obj\Debug\netcoreapp3.1\CellCrypt.AssemblyInfoInputs.cache
+C:\Users\Nozes\source\repos\CellCrypt test\obj\Debug\netcoreapp3.1\CellCrypt.AssemblyInfo.cs
+C:\Users\Nozes\source\repos\CellCrypt test\obj\Debug\netcoreapp3.1\CellCrypt.dll
+C:\Users\Nozes\source\repos\CellCrypt test\obj\Debug\netcoreapp3.1\CellCrypt.pdb
+C:\Users\Nozes\source\repos\CellCrypt test\obj\Debug\netcoreapp3.1\CellCrypt.genruntimeconfig.cache
+C:\Users\Nozes\source\repos\CellCrypt test\obj\Debug\netcoreapp3.1\CellCrypt.csproj.CoreCompileInputs.cache
+C:\Users\Nozes\source\repos\CellCrypt test\obj\Debug\netcoreapp3.1\CellCrypt.csprojAssemblyReference.cache
+C:\Users\Nozes\source\repos\CellCrypt\CellCrypt\bin\Debug\netcoreapp3.1\CellCrypt.exe
+C:\Users\Nozes\source\repos\CellCrypt\CellCrypt\bin\Debug\netcoreapp3.1\CellCrypt.deps.json
+C:\Users\Nozes\source\repos\CellCrypt\CellCrypt\bin\Debug\netcoreapp3.1\CellCrypt.runtimeconfig.json
+C:\Users\Nozes\source\repos\CellCrypt\CellCrypt\bin\Debug\netcoreapp3.1\CellCrypt.runtimeconfig.dev.json
+C:\Users\Nozes\source\repos\CellCrypt\CellCrypt\bin\Debug\netcoreapp3.1\CellCrypt.dll
+C:\Users\Nozes\source\repos\CellCrypt\CellCrypt\bin\Debug\netcoreapp3.1\CellCrypt.pdb
+C:\Users\Nozes\source\repos\CellCrypt\CellCrypt\obj\Debug\netcoreapp3.1\CellCrypt.csproj.CoreCompileInputs.cache
+C:\Users\Nozes\source\repos\CellCrypt\CellCrypt\obj\Debug\netcoreapp3.1\CellCrypt.AssemblyInfoInputs.cache
+C:\Users\Nozes\source\repos\CellCrypt\CellCrypt\obj\Debug\netcoreapp3.1\CellCrypt.AssemblyInfo.cs
+C:\Users\Nozes\source\repos\CellCrypt\CellCrypt\obj\Debug\netcoreapp3.1\CellCrypt.dll
+C:\Users\Nozes\source\repos\CellCrypt\CellCrypt\obj\Debug\netcoreapp3.1\CellCrypt.pdb
+C:\Users\Nozes\source\repos\CellCrypt\CellCrypt\obj\Debug\netcoreapp3.1\CellCrypt.genruntimeconfig.cache
