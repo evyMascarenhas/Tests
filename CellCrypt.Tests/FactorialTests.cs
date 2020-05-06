@@ -1,5 +1,6 @@
 ﻿using CellCrypt;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Numerics;
 using System.Text;
@@ -21,24 +22,25 @@ namespace CellCrypt.Tests
                 this.result = result;
             }
         }
-        [Fact]
-        public void FactorialCalculation_CalculateFactorial_ShouldMatchResult()
+        [Theory]
+        [InlineData(2, "2")]
+        [InlineData(3, "6")]
+        [InlineData(5, "120")]
+        [InlineData(7, "5040")]
+        [InlineData(9, "362880")]
+        [InlineData (100, "93326215443944152681699238856266700490715968264381621468592963895217599993229915608941463976156518286253697920827223758251185210916864000000000000000000000000")]
+        public void FactorialCalculation_CalculateFactorial_ShouldMatchResult(int number, string result)
         {
             FactorialCalculation calc = new FactorialCalculation();
             //arrange 
-            List<NumberAndResult> testCases = new List<NumberAndResult>
-            {
-                new NumberAndResult (2,2),
-                new NumberAndResult (3,6),
-                new NumberAndResult (5,120),
-                new NumberAndResult (7,5040),
-                new NumberAndResult (9,362880),
-                new NumberAndResult(100, BigInteger.Parse("93326215443944152681699238856266700490715968264381621468592963895217599993229915608941463976156518286253697920827223758251185210916864000000000000000000000000"))
-
-            };
-
+            ArrayList array = calc.getMultiplyResults(number);
+            array.Reverse();
+            String resultFromList = string.Empty ;
+            for (int i =0; i< array.Count; i++)
+                resultFromList += array[i].ToString();
+            
             //Act
-            Assert.All(testCases, item => Assert.Equal(item.result, calc.CalculateFactorial(item.number)));
+            Assert.Equal(result, resultFromList);
         }
 
         [Fact]

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+VJWlEuTS+AkTM/OOxQTv9PWDHfR1VkoG9f3xzVgpzqMewhAH5UBZTCeuRy3A3IG6Oc6qA6AS48ygbJF0iik/w==",
+  "dgSpecHash": "DsSM68lqmI/CGxfEAtyBinzMeRuyOPPbh7ANPQQ6AJrX2Zpq30lsPjzJLC4tI8fp5A2WMCScSK3iFpg0blA8/Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nozes\\source\\repos\\CellCrypt\\CellCrypt\\CellCrypt.csproj",
+  "projectFilePath": "C:\\Users\\Nozes\\source\\repos\\Tests\\CellCrypt\\CellCrypt.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xjAyHtktQnKXcN9FxDx3ifU65GI2hiE7K+lxVUHCL+N8G4w9MwKVUvh3mKNBYQIj9AhB9TmUZhItvd/YMZKMvw==",
+  "dgSpecHash": "xz1hb4RlB78x97MnBIEg5mFj+4ZjIJMkSiZgggwC8/96D2o9qdyBefr8UHik1+zB7jNKLrrb6AvHu59Sn4tVfg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nozes\\source\\repos\\CellCrypt\\CellCrypt.Tests\\CellCrypt.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Nozes\\source\\repos\\Tests\\CellCrypt.Tests\\CellCrypt.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nozes\\.nuget\\packages\\microsoft.codecoverage\\16.6.1\\microsoft.codecoverage.16.6.1.nupkg.sha512",
     "C:\\Users\\Nozes\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

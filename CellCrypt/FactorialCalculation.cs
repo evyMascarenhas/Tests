@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Numerics;
 using System.Runtime.CompilerServices;
@@ -8,19 +9,45 @@ namespace CellCrypt
 {
    public class FactorialCalculation
     {
-        /// <summary>
-        /// Function to return the factorial of a given number
-        /// </summary>
-        /// <param name="number"></param>
-        /// <returns></returns>
-        public BigInteger CalculateFactorial(int number)
+        
+        public void CalculateFactorial(int x, ArrayList results)
         {
-           
-                if (number == 1)
-                    return 1;
-                else
-                    return number * CalculateFactorial(number - 1);
-           
+            int adder = 0;
+            int size = results.Count;
+            //instead of using a big number, the result of the factorial will be stored in the array
+
+            for (int i = 0; i < size; i++)
+            {
+                // Calculate the factorial by multiplying the current number and sum to the adder value
+                int res = adder + (int)results[i] * x;
+
+                // update the array with the result of the factorial
+                //and if the result of the factorial has more digits than the current one, we create a new position in the array
+                //We know that if the variable adder has any values
+                
+                results[i] = res % 10;
+                adder = res / 10;
+            } 
+            //it's like doing multiplication by hand, if the number is greater than 9,
+            //we keep the first part and the other part goes up to be added to the next number multiplied
+            while (adder != 0)
+            {
+                results.Add(adder % 10);
+                adder /= 10;
+            }
+        }
+
+        public ArrayList getMultiplyResults(int number)
+        {
+            ArrayList results = new ArrayList();
+            results = new ArrayList();
+            results.Add(1); // adds 1 to the end  
+
+            // One by one multiply i to current vector  
+            // and update the vector.  
+            for (int i = 1; i <= number; i++)
+                CalculateFactorial(i, results);
+            return results;
         }
 
         /// <summary>
@@ -30,21 +57,16 @@ namespace CellCrypt
         /// <returns></returns>
         public int CalculateSumFactorial(int number )
         {
-            //calculate the factorial
-            BigInteger factorial = CalculateFactorial(number);
-            BigInteger sum = 0;
-            //here the division by 10 is used to "split" the digits
-            //for example 120 would become 12 on the first round, then 1 on the second round, then 0 on the last round
-            //meanwhile the variable sum keeps receiving the remainder of the division 
-            //becoming 0 (zero) on the first round, 2 on the second round and 3 on the last round
-            while (factorial !=0)
-            {
-                sum += factorial % 10;
-                factorial /= 10;
+            ArrayList results = getMultiplyResults(number);
 
-            }
-            return (int) sum;
- 
+
+            // Find sum of digits in vector v[]  
+            int sum = 0;
+            int size = results.Count;
+            for (int i = 0; i < size; i++)
+                sum += (int)results[i];
+            return sum;
+
         }
     }
 }

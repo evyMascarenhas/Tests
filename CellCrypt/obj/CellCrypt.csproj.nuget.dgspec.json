@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nozes\\source\\repos\\CellCrypt\\CellCrypt\\CellCrypt.csproj": {}
+    "C:\\Users\\Nozes\\source\\repos\\Tests\\CellCrypt\\CellCrypt.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nozes\\source\\repos\\CellCrypt\\CellCrypt\\CellCrypt.csproj": {
+    "C:\\Users\\Nozes\\source\\repos\\Tests\\CellCrypt\\CellCrypt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nozes\\source\\repos\\CellCrypt\\CellCrypt\\CellCrypt.csproj",
+        "projectUniqueName": "C:\\Users\\Nozes\\source\\repos\\Tests\\CellCrypt\\CellCrypt.csproj",
         "projectName": "CellCrypt",
-        "projectPath": "C:\\Users\\Nozes\\source\\repos\\CellCrypt\\CellCrypt\\CellCrypt.csproj",
+        "projectPath": "C:\\Users\\Nozes\\source\\repos\\Tests\\CellCrypt\\CellCrypt.csproj",
         "packagesPath": "C:\\Users\\Nozes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nozes\\source\\repos\\CellCrypt\\CellCrypt\\obj\\",
+        "outputPath": "C:\\Users\\Nozes\\source\\repos\\Tests\\CellCrypt\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
